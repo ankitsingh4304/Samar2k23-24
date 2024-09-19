@@ -39,7 +39,7 @@ function Footer() {
                 <div className="footer-links-div">
                     <div className="footer-links-inner-div">
                     <h3> Shaurya </h3>
-                        <NavLink
+                        <NavLink className='navlinks'
                             onClick={() => {
                                 setActiveLink(5)
                             }}
@@ -47,7 +47,7 @@ function Footer() {
                         >
                             Our Team
                         </NavLink>
-                        <NavLink
+                        <NavLink className='navlinks'
                             onClick={() => {
                                 setActiveLink(6)
                             }}
@@ -55,7 +55,7 @@ function Footer() {
                         >
                             Contact Us
                         </NavLink>
-                        <NavLink
+                        <NavLink className='navlinks'
                             onClick={() => {
                                 setActiveLink(7)
                             }}
@@ -71,7 +71,7 @@ function Footer() {
                     <h3>Contact</h3>
                         <div className="footer-contact-links">
                             <div className="contact-links-logo-div">
-                                <LetterLogo />
+                                <LetterLogo className='footer-icons'/>
                             </div>
                             <div className="contact-links-text-div" >
                                 <p>Shaurya@nitrr.ac.in</p>
@@ -79,7 +79,7 @@ function Footer() {
                         </div>
                         <div className="footer-contact-links">
                             <div className="contact-links-logo-div">
-                                <SmartPhoneLogo/>
+                                <SmartPhoneLogo className='footer-icons'/>
                             </div>
                             <div className="contact-links-text-div" >
                                 <p>+91 70001 79871</p>
@@ -87,7 +87,7 @@ function Footer() {
                         </div>
                         <div className="footer-contact-links">
                             <div className="contact-links-logo-div">
-                                <LocationPinLogo/>
+                                <LocationPinLogo className='footer-icons'/>
                             </div>
                             <div className="contact-links-text-div" >
                                 <p>Raipur, Chhattisgarh, India</p>
