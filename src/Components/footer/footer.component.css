@@ -1,5 +1,5 @@
 .footer {
-  background: rgba(34, 22, 65, 0.5);
+  background: rgba(72, 42, 149, 0.5);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
   display: flex;
   width: 100%;
@@ -55,7 +55,7 @@
 .footer-links-inner-div h3, .footer-social-links-inner-div h3 , .footer-icon-inner-div h3, .link_connect span{
   font-size: 1.5rem;
   font-weight: 700;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid rgb(55, 93, 244);
   margin-bottom: 1.5rem;
 }
 .link_connect span{
@@ -73,6 +73,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.footer-links-inner-div .navlinks:hover{
+  text-decoration: underline;
+  color: #9de3fb;
+  transition: all 0.4s ease;
+
 }
 .footer-contact-links {
   width: 100%;
@@ -92,11 +98,17 @@
 }
 .footer-contact-links p {
   font-weight: 800;
-  color: #ffffff;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 18px;
   padding-left: 6px;
   margin: 0px;
+}
+.footer-contact-links p:hover{
+  color: #9de3fb;
+  transition: all 0.4s ease;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .copyright-div {
   height: 10%;
@@ -112,6 +124,20 @@
   text-align: center;
   margin: 0px;
 }
+
+.footer-logo-container a:hover{
+  scale: 1.2;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.logo_content_div .logo_data p{
+  font-size: 1.2rem;
+  color: rgb(178, 248, 239);
+
+}
+
+
 @media screen and (max-width : 1220px ) {
   .footer-links-inner-div h3, .footer-social-links-inner-div h3 , .footer-icon-inner-div h3, .link_connect span{
     font-size: 1.2rem;
